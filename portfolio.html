@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    text-transform: capitalize;
+    color: white;
+  
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff6347; /* Change to a different color on hover */
+}
+
+.jam{
+  width:100px
+  
+}
+#sonu{
+  width:480px;
+
+  height:300px;
+  margin-left: 500px;
+  margin-top: 200px;
+  position: relative;
+  opacity: %;
+}
+.so{
+  margin-top: -250px;
+  position: relative;
+  margin-left: 100px;
+  font-size: 20px;
+  color: white;
+   animation-name: so;
+  animation-duration: 1.7s;
+  
+}
+.jo{
+    margin-top: 0px;
+  position: relative;
+  margin-left: 100px;
+  font-size: 30px;
+  color: white;
+  text-shadow: 1px 2px 8px burlywood;
+  animation-name: so;
+  animation-duration: 1s;
+}
+@keyframes so{
+  0%{ top: 40px; opacity: 0%;}
+  100%{ top: 0px; opacity: 100%;}
+}
+.y{
+  background-color: black;
+}
+.local{
+  background-color: black;
+
+  width: 980px;
+  height:500px;
+  margin-top: 136px;
+
+}
+.aboutimg{
+  width: 200px;
+  margin-top: 40px;
+  float: left;
+  margin-left: 40px;
+    animation-name: fu;
+  animation-duration: 2s;
+}
+.men{
+  width:200px;
+  margin-top: 40px;
+  height:213.5px;
+  margin-left: 40px;
+  animation-name: fu;
+  animation-duration: 2s;
+  
+  
+}
+.aboutme{
+    
+    color: white;
+    margin-left: 600px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: -150px;
+    font-size: 90px;
+    animation-name: ab;
+    animation-duration: 1.5s;
+}
+@keyframes ab{
+    0%{ left: 40px; opacity: 0%;}
+  100%{ left: 0px; opacity: 100%;}
+}
+.idea{
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  margin-top:110px;
+  margin-left: 40px;
+  position: absolute;    
+  animation-name: ab;
+    animation-duration: 1.5s;
+  
+}
+.p{
+  color: white;
+    text-transform: uppercase;
+  letter-spacing: 8px;
+  margin-top: 140px;
+  margin-left: 40px;
+  position: absolute;
+      animation-name: ab;
+    animation-duration: 1.5s;
+}
+.n{
+    background-color: black;
+
+  width: 980px;
+  height:500px;
+}
+.nth{
+  margin-left: 500px;
+      animation-name: ab;
+    animation-duration: 1.5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+.future{
+  letter-spacing: 10px;
+  font-size: 50px;
+  margin-top: 90px;
+  margin-left: 50px;
+  text-transform: uppercase;
+  position: absolute;
+      animation-name: fu;
+    animation-duration: 1s;
+}
+@keyframes fu{
+    0%{ font-size: 30px; opacity: 0%;}
+  100%{ font-size: 50px; opacity: 100%;}
+}
+.j{
+    color: white;
+    text-transform: uppercase;
+  letter-spacing: 8px;
+  margin-top: 200px;
+  margin-left: 40px;
+  position: absolute;
+      animation-name: ab;
+    animation-duration: 1.5s;
+    line-height: 40px;
+    
+}
+.button{
+  background-color: orange;
+  width: 300px;
+  font-size: 30px;
+    letter-spacing: 8px;
+    border-radius: 20px;
+  height:50px;
+  position: absolute;
+  margin-top: 500px;
+  margin-left: 50px;
+  border: 0px;
+  animation-name: b;
+  animation-duration: 1s;
+}@keyframes b{
+    0%{ width: 100px; opacity: 0%;}
+  100%{ width: 300px; opacity: 100%;}
+}
+.po{
+    letter-spacing: 10px;
+  font-size: 50px;
+  margin-left: 300px;
+  text-transform: uppercase;
+  position: absolute;
+  color: white;
+  text-shadow: 0px 0px 18px white;
+      animation-name: fu;
+      animation-duration: 1s;
+      
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.power{
+  margin-top: 200px;
+  text-align: center;
+
+}
+.poro{
+  width:300px;
+  height:300px;
+  float: left;
+  background-color:black;
+  box-shadow:  0px 0px 180px white;;
+  border:1px solid yellow;
+  margin-left: 150px;
+  margin-top: 100px;
+  animation-name: pr;
+  animation-duration: 1s;
+}
+@keyframes pr{
+    0%{ margin-top: 40px; opacity: 0%;}
+  100{margin-top: 0px; opacity: 100%;}}
+.video{
+    width:900px;
+  height:300px;
+  
+    position: absolute;
+    margin-top: 1000px;
+    margin-left: 30px;
+    
+}
+#myVideo{
+  width: 1000px;
+  height:300px;
+  margin-left: 00px;
+  animation-name: ab;
+    animation-duration: 1.5s;
+  position: absolute;
+  
+}
+footer {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 20px 0; /* Padding for top and bottom */
+    text-align: center; /* Center align text */
+    margin-top: 1600px;
+    width: 1100px;
+}
+
+.footer-content {
+    max-width: 1000px; /* Max width for the footer content */
+    margin: 0 auto; /* Center the footer content */
+}
+
+.social-links {
+    margin: 10px 0; /* Margin for social links */
+}
+
+.social-links a {
+    color: #fff; /* White text color for links */
+    text-decoration: none; /* Remove underline */
+    margin: 0 15px; /* Margin between links */
+    transition: color 0.3s; /* Transition for hover effect */
+}
+
+.social-links a:hover {
+    color: #ff6347; /* Change color on hover */
+}
+</style>
+<body>
+
+    <header>
+        <div class="container">
+            <h1 class="logo"><img class="jam" src="log.png" alt="" /></h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+
+
+
+
+
+
+
+    <main>
+        <!-- Main content goes here -->
+
+<div class="y"><img src="main.png" alt="" id="sonu" /></div>
+<h1 class="so">Hlo!</h1><br>
+<h4 class="jo">I am sonu <br>a frontend developer</h4>
+
+
+
+
+
+
+<div class="local">
+  
+  
+  
+  <img class="aboutimg" src="ab.jpg" alt="" />
+  <img src="g.png" alt="" class="men" />
+
+<h1 class="aboutme">ABOUT</h1>
+
+<h1 class="idea">
+  my creative idea
+</h1><br>
+<p class="p">
+   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at ipsum vitae lacus lobortis lacinia. Donec tristique arcu massa, at pharetra tortor feugiat non.
+</p >
+
+
+</div>
+<div class="n">
+<h1 class="future">
+  <!--Tab to edit-->future work 
+</h1><p class="j">
+   Lorem ipsum dolor sit amet,<br>  consectetur adipiscing<br>  elit. Sed at ipsum vitae <br> lacus lobortis lacinia.<br>  Donec tristique arcu<br>  massa, at pharetra <br> tortor feugiat non.
+</p ><button class="button">
+  <!--Tab to edit-->MORE
+</button >
+  <img class="nth" src="n.png" alt="" />
+</div>
+<div class="power">
+  <h1 class="po">
+    <!--Tab to edit-->MY projects
+  </h1>
+  
+  
+  <div class="poro"></div>
+    <div class="poro"></div>
+      <div class="poro"></div>
+        <div class="poro"></div>
+  
+  
+</div>
+
+
+<div class="video">  
+  <video autoplay muted loop id="myVideo">
+  <source src="vs.mp4" type="video/mp4">
+  </video>
+    
+</div>
+    </main>
+    
+    
+    
+    
+    
+    
+    
+    <footer>
+    <div class="footer-content">
+        <h2>Connect with Me</h2>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+            <a href="https://github.com/yourprofile" target="_blank">GitHub</a>
+            <a href="https://twitter.com/yourprofile" target="_blank">Twitter</a>
+            <a href="https://www.instagram.com/yourprofile" target="_blank">Instagram</a>
+        </div>
+        <p>&copy; 2023 Your Name. All rights reserved.</p>
+    </div>
+</footer>
+    
+
+</body>
+</html>
